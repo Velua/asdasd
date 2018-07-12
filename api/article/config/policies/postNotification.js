@@ -21,8 +21,8 @@ module.exports = async (ctx, next) => {
     const flattendPlayerIds = [].concat(...loadedPlayerIds);
     const playerIdArray = flattendPlayerIds.map(obj => obj.playerIdString)
 
+    console.log('Committing the following playerIds...')
     console.log(playerIdArray)
-
     
   }
 };
