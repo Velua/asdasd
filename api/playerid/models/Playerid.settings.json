@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "playerid",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "playerIdString": {
+      "type": "string"
+    },
+    "user": {
+      "model": "user",
+      "via": "playerids",
+      "plugin": "users-permissions"
+    }
+  }
+}

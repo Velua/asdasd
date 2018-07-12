@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/playerid",
+      "handler": "Playerid.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/playerid/count",
+      "handler": "Playerid.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/playerid/:_id",
+      "handler": "Playerid.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/playerid",
+      "handler": "Playerid.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/playerid/:_id",
+      "handler": "Playerid.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/playerid/:_id",
+      "handler": "Playerid.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

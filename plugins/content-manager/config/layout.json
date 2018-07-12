@@ -1,0 +1,66 @@
+{
+  "article": {
+    "attributes": {
+      "title": {
+        "appearance": ""
+      },
+      "coucou": {
+        "appearance": ""
+      },
+      "content": {
+        "appearance": "WYSIWYG"
+      },
+      "code": {
+        "appearance": ""
+      },
+      "free": {
+        "appearance": ""
+      }
+    }
+  },
+  "tag": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      }
+    }
+  },
+  "category": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      }
+    }
+  },
+  "reference": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      }
+    }
+  },
+  "categorie": {
+    "attributes": {
+      "title": {
+        "appearance": ""
+      }
+    }
+  },
+  "author": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      },
+      "active": {
+        "appearance": ""
+      }
+    }
+  },
+  "playerid": {
+    "attributes": {
+      "playerIdString": {
+        "appearance": ""
+      }
+    }
+  }
+}

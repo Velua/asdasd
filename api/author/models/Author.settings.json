@@ -1,0 +1,34 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "author",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "user": {
+      "model": "user",
+      "via": "author",
+      "plugin": "users-permissions"
+    },
+    "subscribers": {
+      "collection": "user",
+      "via": "subscriptions",
+      "dominant": true,
+      "plugin": "users-permissions"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "articles": {
+      "collection": "article",
+      "via": "author"
+    }
+  }
+}
