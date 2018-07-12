@@ -29,7 +29,7 @@
       "path": "/article",
       "handler": "Article.create",
       "config": {
-        "policies": []
+        "policies": ["postNotification"]
       }
     },
     {

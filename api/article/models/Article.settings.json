@@ -28,6 +28,9 @@
     },
     "free": {
       "type": "boolean"
+    },
+    "pushNotification": {
+      "type": "boolean"
     }
   }
 }
