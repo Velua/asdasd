@@ -24,6 +24,14 @@
     }
   },
   {
+    "id": "onesignal",
+    "source": {
+      "development": "/onesignal/main.js",
+      "production": "/onesignal/main.js",
+      "staging": "/onesignal/main.js"
+    }
+  },
+  {
     "id": "settings-manager",
     "source": {
       "development": "/settings-manager/main.js",
